@@ -119,4 +119,51 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  /* 8. Stat counters: count up to the real figure the first time they scroll into view */
+  var counters = document.querySelectorAll('[data-count-to]');
+  var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function runCounter(el) {
+    var target = parseInt(el.getAttribute('data-count-to'), 10) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
+
+    if (prefersReducedMotion) {
+      el.textContent = target + suffix;
+      return;
+    }
+
+    var duration = 1600;
+    var startTime = null;
+
+    function step(timestamp) {
+      if (startTime === null) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+      var current = Math.round(eased * target);
+      el.textContent = current + suffix;
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        el.textContent = target + suffix;
+      }
+    }
+    window.requestAnimationFrame(step);
+  }
+
+  if (counters.length) {
+    if ('IntersectionObserver' in window) {
+      var counterObserver = new IntersectionObserver(function (entries, obs) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            runCounter(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      counters.forEach(function (el) { counterObserver.observe(el); });
+    } else {
+      counters.forEach(function (el) { runCounter(el); });
+    }
+  }
+
 });
