@@ -111,10 +111,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* 7. Active nav link */
-  var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  var currentPage = (window.location.pathname.split('/').pop() || 'index').replace(/\.html$/, '');
   document.querySelectorAll('.nav-links a, .mobile-menu a').forEach(function (link) {
-    var href = link.getAttribute('href');
-    if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+    var href = (link.getAttribute('href') || '').replace(/\.html$/, '');
+    if (href === '/' || href === '') { href = 'index'; }
+    if (href === currentPage) {
       link.classList.add('active');
     }
   });
