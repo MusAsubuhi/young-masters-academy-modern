@@ -34,19 +34,14 @@
   [✓] Google Fonts: &display=swap present in link href
   [✓] Scripts: all non-critical scripts have defer attribute
   [✓] No inline styles or onclick handlers
-  NOTE: No hero <img> exists — the hero uses a CSS background-image
-  (.hero-full) and assets/images/hero/ is currently empty. WebP/
-  <picture>/preload/srcset work from the SEO brief cannot be applied
-  until real photography is supplied. See end-of-task report for the
-  full list of missing image files.
   ══════════════════════════════════════════════════════════════
 -->
 <html lang="en-KE">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CBE School in Likoni Mombasa | Young Masters Academy</title>
-<meta name="description" content="Young Masters Academy is a CBE school in Likoni, Mombasa, offering education from Daycare to Grade 9. Small classes, caring teachers, and a community built for your child to shine.">
+<title>Private CBE School, Likoni Mombasa | Young Masters Academy</title>
+<meta name="description" content="Looking for a school in Likoni, Mombasa? Young Masters Academy is a CBE school for Daycare to Grade 9, with caring teachers, small classes and 2027 places open.">
 <meta name="keywords" content="Young Masters Academy, CBE school Mombasa, private school Likoni, CBE school Kenya, Daycare Mombasa, Grade 9 school Mombasa, Confident Innovators">
 <meta name="author" content="Young Masters Academy">
 <meta name="robots" content="index, follow">
@@ -55,8 +50,8 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Young Masters Academy">
 <meta property="og:url" content="https://www.youngmastersacademy.sc.ke/">
-<meta property="og:title" content="Young Masters Academy — Confident Innovators, SHINE!">
-<meta property="og:description" content="A CBE school in Likoni, Mombasa, nurturing confident innovators from Daycare to Grade 9 — small classes, caring teachers, real community.">
+<meta property="og:title" content="Private CBE School, Likoni Mombasa | Young Masters Academy">
+<meta property="og:description" content="Looking for a school in Likoni, Mombasa? Young Masters Academy is a CBE school for Daycare to Grade 9, with caring teachers, small classes and 2027 places open.">
 <meta property="og:image" content="https://www.youngmastersacademy.sc.ke/assets/images/logo/logo-main.png">
 <meta property="og:image:width" content="2170">
 <meta property="og:image:height" content="2429">
@@ -66,8 +61,8 @@
 <!-- Twitter / X Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@youngmastersacademy">
-<meta name="twitter:title" content="Young Masters Academy — Confident Innovators, SHINE!">
-<meta name="twitter:description" content="A CBE school in Likoni, Mombasa, nurturing confident innovators from Daycare to Grade 9 — small classes, caring teachers, real community.">
+<meta name="twitter:title" content="Private CBE School, Likoni Mombasa | Young Masters Academy">
+<meta name="twitter:description" content="Looking for a school in Likoni, Mombasa? Young Masters Academy is a CBE school for Daycare to Grade 9, with caring teachers, small classes and 2027 places open.">
 <meta name="twitter:image" content="https://www.youngmastersacademy.sc.ke/assets/images/logo/logo-main.png">
 <meta name="twitter:image:alt" content="Young Masters Academy school crest — Confident Innovators, SHINE! Likoni, Mombasa">
 
@@ -88,6 +83,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16.png">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/images/logo/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="preload" as="image" href="assets/images/hero/hero-home.webp" type="image/webp" fetchpriority="high">
 <link rel="stylesheet" href="css/style.css">
 
 <!-- School / LocalBusiness structured data -->
@@ -105,7 +101,7 @@
     "height": 300
   },
   "image": "https://www.youngmastersacademy.sc.ke/assets/images/logo/logo-main.png",
-  "description": "Young Masters Academy is a CBE school in Likoni, Mombasa, Kenya, offering education from Daycare to Grade 9. Founded in 2005. Confident Innovators, SHINE!",
+  "description": "Young Masters Academy is a private CBE school in Likoni, Mombasa, Kenya, offering education from Daycare to Grade 9. Founded in 2005. Confident Innovators, SHINE!",
   "foundingDate": "2005",
   "priceRange": "KSh",
   "address": {
@@ -131,71 +127,25 @@
     }
   ],
   "sameAs": [],
+  "availableLanguage": ["English", "Swahili"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+254798639546",
+    "contactType": "admissions",
+    "areaServed": "KE",
+    "availableLanguage": ["English", "Swahili"]
+  },
   "hasMap": "https://www.google.com/maps?q=-4.0942,39.6495",
   "curriculumType": "Competency Based Education (CBE)",
   "slogan": "Confident Innovators, SHINE!",
   "educationalLevel": ["Daycare", "ECD", "PP1", "PP2", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9"],
-  "areaServed": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates",
-      "latitude": -4.0942,
-      "longitude": 39.6495
-    },
-    "geoRadius": "10000"
-  }
-}
-</script>
-
-<!-- FAQ structured data (home page only) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which levels do you offer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer Daycare and ECD, Pre-Primary (PP1 and PP2), Lower Primary (Grades 1 to 3), Upper Primary (Grades 4 to 6), and Junior School (Grades 7 to 9). You can read about each level on the Academics page."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where exactly are you located?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We are on the compound of Deliverance Church International Likoni, in the Kitaruni area along Likoni-Ukunda Road, Likoni, Mombasa. The map on our contact page is zoomed in on the church so you can find us easily."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Competency Based Education (CBE), and how does YMA use it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CBE asks 'What can my child do?' rather than only 'What does my child know?' Learners are assessed over time through tasks, projects, observation, and tests, and their progress is recorded against competencies. We teach and assess in line with national policy. Read more on our Academics page."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I apply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Complete the online application through our admissions portal, or contact the school office by phone, WhatsApp, or the contact form. We acknowledge applications within two working days."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I reach the school?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Call or WhatsApp +254 798 639546, or email info@youngmastersacademy.co.ke. Our office hours are Monday to Friday, 8:00 am to 5:30 pm."
-      }
-    }
+  "areaServed": [
+    {"@type": "City", "name": "Mombasa"},
+    {"@type": "AdministrativeArea", "name": "Likoni"}
   ]
 }
 </script>
+
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -254,12 +204,12 @@
 <main id="main-content">
 
 <!-- ============ SECTION 1: HERO ============ -->
-<section class="hero hero-full img-fallback-outdoor" style="background-image: url('assets/images/hero/hero-home.jpg');">
+<section class="hero hero-full img-fallback-outdoor" style="background-image: url('assets/images/hero/hero-home.jpg'); background-image: image-set(url('assets/images/hero/hero-home.webp') type('image/webp'), url('assets/images/hero/hero-home.jpg') type('image/jpeg'));">
   <div class="container">
     <div class="hero-content">
       <span class="section-label">Welcome to YMA</span>
-      <h1>CBE School in Likoni, Mombasa — Confident Innovators, SHINE!</h1>
-      <p class="hero-sub">Young Masters Academy is a CBE school in Likoni, Mombasa, nurturing curious minds and compassionate leaders since 2005. From Daycare to Grade 9, every child here is known, challenged, and cared for.</p>
+      <h1>Confident Innovators, SHINE! A Private CBE School in Likoni, Mombasa</h1>
+      <p class="hero-sub">Young Masters Academy is where Likoni families send their children to grow into curious, capable and caring young leaders. From Daycare to Grade 9, every child learns in small classes with teachers who know them by name. Serving Likoni and the wider Mombasa community since 2005.</p>
       <div class="hero-buttons">
         <a href="https://accounts.youngmastersacademy.sc.ke/guest/request" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Apply for 2027 Intake →</a>
         <a href="faq" class="btn btn-outline-white">Read Our FAQ →</a>
@@ -435,6 +385,23 @@
 <!-- PHASE 2: Replace static testimonials with CMS-managed rotating testimonials -->
 
 <!-- ============ SECTION 8: HOMEPAGE CTA BANNER ============ -->
+<!-- ============ LOCAL: SCHOOL IN LIKONI, MOMBASA ============ -->
+<section class="section bg-white" id="local">
+  <div class="container">
+    <div class="section-intro center reveal">
+      <span class="section-label">Right Here in Likoni</span>
+      <h2>A School for Likoni and the Whole of Mombasa</h2>
+      <p class="body-text">You will find Young Masters Academy on the Deliverance Church International Likoni compound, off Likoni-Ukunda Road in Kitaruni. Families from across Likoni and the wider Mombasa area choose us for a private CBE school where children are known, challenged and cared for, from Daycare all the way to Grade 9.</p>
+      <p class="body-text"><em>Karibu Young Masters Academy: shule binafsi Likoni, Mombasa, kuanzia Chekechea hadi Darasa la Tisa.</em></p>
+      <div class="hero-buttons">
+        <a href="admissions" class="btn btn-primary">See How to Enrol →</a>
+        <a href="contact#find-us" class="btn btn-secondary-dark">Get Directions →</a>
+        <a href="academics#cbe" class="btn btn-secondary-dark">Explore Our CBE Approach →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="cta-banner">
   <div class="container">
     <h2 class="reveal">2027 Intake is Now Open</h2>
