@@ -379,7 +379,8 @@ p { line-height: 1.8; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(27, 45, 86, 0.70);
+  /* Blue-tinted overlay: keeps white text readable while letting the photo's colour show through */
+  background: linear-gradient(135deg, rgba(22, 50, 125, 0.82) 0%, rgba(34, 82, 178, 0.60) 100%);
 }
 .hero .container {
   position: relative;
@@ -390,7 +391,7 @@ p { line-height: 1.8; }
 .hero-inner { min-height: 380px; padding: 60px 0; }
 
 .hero-content { max-width: 720px; }
-.hero h1 { color: var(--white); font-size: 52px; }
+.hero h1 { color: var(--white); font-size: 52px; text-shadow: 0 2px 12px rgba(10, 25, 70, 0.45); }
 .hero-full .hero-content { margin: 0 auto; text-align: center; }
 .hero-sub {
   font-weight: 300;
