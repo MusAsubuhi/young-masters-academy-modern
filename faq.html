@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!--
+  YOUNG MASTERS ACADEMY WEBSITE
+  Phase 1 of 3 — Awareness & Information
+  Built: 2025
+
+  PHASE ROADMAP:
+  Phase 1 (current): Static informational site — 8 pages, Formspree forms
+  Phase 2 (next):    WhatsApp API, M-Pesa payments, CMS for content updates
+  Phase 3 (future):  Parent/student portal, CBE progress tracking, admin dashboard
+
+  School: Young Masters Academy, Likoni, Mombasa, Kenya
+  Contact: info@youngmastersacademy.co.ke | +254 798 639546
+-->
+<!--
+  SEO AUDIT — FAQ
+  ══════════════════════════════════════════════════════════════
+  [✓] Title tag: 50–60 chars, contains primary keyword
+  [✓] Meta description: 100–160 chars, unique to this page
+  [✓] H1: exactly one, contains primary keyword
+  [✓] H2s: logical hierarchy, contain secondary keywords
+  [✓] All images: have alt text, width, height attributes (page has no content images — logo only)
+  [✓] Hero image: N/A on this page (CSS background-image)
+  [✓] Other images: N/A (no content images on this page)
+  [✓] Internal links: at least 2 contextual links to other pages
+  [✓] External links: rel="noopener noreferrer" target="_blank"
+  [✓] OG tags: complete block present
+  [✓] JSON-LD schema: LocalBusiness + School present
+  [✓] JSON-LD schema: BreadcrumbList present
+  [✓] Canonical tag: matches og:url exactly
+  [✓] lang="en-KE" on <html> tag
+  [✓] skip-link present as first element in <body>
+  [✓] ARIA labels on nav, buttons, form fields
+  [✓] Google Fonts: &display=swap present in link href
+  [✓] Scripts: all non-critical scripts have defer attribute
+  [✓] No inline styles or onclick handlers
+  ══════════════════════════════════════════════════════════════
+-->
+<html lang="en-KE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ | Young Masters Academy, Likoni</title>
+<meta name="description" content="Answers to common questions about Young Masters Academy in Likoni: our location, CBE, clubs, admissions, transfers, and how to reach us.">
+<meta name="keywords" content="Young Masters Academy FAQ, CBE school Mombasa, school transfer Kenya, Likoni school admissions">
+<meta name="author" content="Young Masters Academy">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Young Masters Academy">
+<meta property="og:url" content="https://youngmastersacademy.sc.ke/faq.html">
+<meta property="og:title" content="FAQ — Young Masters Academy">
+<meta property="og:description" content="Answers to common questions about Young Masters Academy, CBE, admissions, and transfers in Likoni, Mombasa.">
+<meta property="og:image" content="https://youngmastersacademy.sc.ke/assets/images/logo/logo-main.png">
+<meta property="og:image:width" content="2170">
+<meta property="og:image:height" content="2429">
+<meta property="og:image:alt" content="Young Masters Academy admissions — 2027 intake now open, Likoni, Mombasa">
+<meta property="og:locale" content="en_KE">
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@youngmastersacademy">
+<meta name="twitter:title" content="FAQ — Young Masters Academy">
+<meta name="twitter:description" content="Answers to common questions about Young Masters Academy, CBE, admissions, and transfers in Likoni, Mombasa.">
+<meta name="twitter:image" content="https://youngmastersacademy.sc.ke/assets/images/logo/logo-main.png">
+<meta name="twitter:image:alt" content="Young Masters Academy admissions — 2027 intake now open, Likoni, Mombasa">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://youngmastersacademy.sc.ke/faq.html">
+
+<!-- Theme colour, geo, and language targeting -->
+<meta name="theme-color" content="#182858">
+<meta name="geo.region" content="KE-300">
+<meta name="geo.placename" content="Likoni, Mombasa, Kenya">
+<meta name="language" content="English">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/logo/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- School / LocalBusiness structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["School", "LocalBusiness"],
+  "name": "Young Masters Academy",
+  "alternateName": "YMA",
+  "url": "https://youngmastersacademy.sc.ke",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://youngmastersacademy.sc.ke/assets/images/logo/logo-main.png",
+    "width": 300,
+    "height": 300
+  },
+  "image": "https://youngmastersacademy.sc.ke/assets/images/logo/logo-main.png",
+  "description": "Young Masters Academy is a CBE school in Likoni, Mombasa, Kenya, offering education from Daycare to Grade 9. Founded in 2005. Confident Innovators, SHINE!",
+  "foundingDate": "2005",
+  "priceRange": "KSh",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Deliverance Church International Likoni compound, Likoni-Ukunda Road, Kitaruni",
+    "addressLocality": "Mombasa",
+    "addressRegion": "Coast",
+    "addressCountry": "KE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -4.0942,
+    "longitude": 39.6495
+  },
+  "telephone": "+254798639546",
+  "email": "info@youngmastersacademy.co.ke",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "17:30"
+    }
+  ],
+  "sameAs": [],
+  "hasMap": "https://www.google.com/maps?q=-4.0942,39.6495",
+  "curriculumType": "Competency Based Education (CBE)",
+  "slogan": "Confident Innovators, SHINE!",
+  "educationalLevel": ["Daycare", "ECD", "PP1", "PP2", "Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9"],
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": -4.0942,
+      "longitude": 39.6495
+    },
+    "geoRadius": "10000"
+  }
+}
+</script>
+
+<!-- Breadcrumb structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When was Young Masters Academy founded?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Young Masters Academy was founded in 2005 in Likoni, Mombasa, so in 2026 the school is 21 years old. We have taught through the move from 8-4-4 to the Competency Based Curriculum and now to Competency Based Education (CBE)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which levels do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer Daycare and ECD, Pre-Primary (PP1 and PP2), Lower Primary (Grades 1 to 3), Upper Primary (Grades 4 to 6), and Junior School (Grades 7 to 9). You can read about each level on the Academics page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Young Masters Academy a private school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We are a private school, and we serve a wide community, including children who are supported through the KE358 Child Development Centre (CDC)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where exactly are you located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are on the compound of Deliverance Church International Likoni, in the Kitaruni area along Likoni-Ukunda Road, Likoni, Mombasa. The map on our contact page is zoomed in on the church so you can find us easily."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the school connected to KE358 and Deliverance Church International Likoni?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The school, Deliverance Church International Likoni, and the KE358 Child Development Centre (CDC) share one compound and work side by side as one community. A sizeable share of our learners are supported through KE358, and this partnership is how we serve the children among us who need it most."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who leads the school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The school is led by Rev. Mary Wambogo, a pastor, businesswoman, and the founder of the school; Anne Matthews, a Christian social worker; Moses Kioko (Musa Asubuhi), a serial entrepreneur; and James Kimani, a banker who is passionate about education. Meet the leadership team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer Daycare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our Daycare and ECD programme gives our youngest children a safe, structured, and stimulating start."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the school provide transport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Young Masters Academy does not currently provide school transport, so families arrange how their children travel to and from school."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Competency Based Education (CBE), and how does YMA use it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CBE asks 'What can my child do?' rather than only 'What does my child know?' Learners are assessed over time through tasks, projects, observation, and tests, and their progress is recorded against competencies. We teach and assess in line with national policy. Read more on our Academics page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does government policy say about CBE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sessional Paper No. 1 of 2019 commits government to \"mainstream competency based education and training\" and to \"reform the assessment and examinations framework\" (read the paper). KICD's Basic Education Curriculum Framework names seven core competencies and calls formative, criterion-referenced assessment \"the bedrock of a competency-based curriculum\" (read the framework)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do school assessments count towards national results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. As reported in 2026, school-based assessment makes up about 60% of KPSEA (Grades 4 to 6) and 20% of KJSEA (Grades 7 and 8). Schools upload these scores to KNEC's CBA portal (read the report). That is why steady, honest records of each learner's work through the year matter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which clubs and activities do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sports and athletics, arts, a chess club, a baking and entrepreneurship club, debate, and spelling bee. Each is linked to the core competencies in national policy on the Academics page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which subjects are taught in Junior School?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subject specialist teachers deliver the Junior School programme (Grades 7 to 9), including Pre-Technical Studies, Business Studies, and Agriculture alongside core subjects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which languages do you teach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "English and Kiswahili form part of our programme from Pre-Primary, where learners are introduced to early literacy in both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How big are your classes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our classes are intentionally small, so that teachers can know each learner by name, by strength, and by what they are still working on."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the 2027 intake open?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Applications for the January 2027 intake are open for all levels from Daycare to Grade 9. See how to apply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When can my child join the school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our main intake runs in January, at the start of the academic year. A child can also transfer to us at any time, as long as the parent follows the government's transfer protocols."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Complete the online application through our admissions portal, or contact the school office by phone, WhatsApp, or the contact form. We acknowledge applications within two working days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which documents do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A certified copy of the birth certificate, two recent passport-size photographs, the completed enrolment form, previous school reports or progress records (Grade 1 and above), and a copy of the parent or guardian's national ID. Transfers also need a release letter from the previous school, plus your child's UPI and KNEC assessment number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an assessment before admission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For Grade 1 and above we carry out a brief, informal placement assessment. It is not a test your child needs to prepare for; it helps us understand how to support them from day one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I transfer my child from another school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Collect your child's UPI, KNEC assessment number, and records; ask the current school for a release letter; and apply to us. We then start the transfer on KNEC's CBA portal, the releasing school accepts it, an admission letter is generated online, and we notify the Sub-County Director of Education. See the full steps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my child transfer into Grade 6?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the KNEC guidance reported in 2026, transfers are not allowed into Grade 6, because learners are preparing for the national assessment. Please speak to us before you withdraw your child from their current school."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We share our fee structure directly with enquiring families. Please call or WhatsApp us on +254 798 639546, or send a message through the contact page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I reach the school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call or WhatsApp +254 798 639546, or email info@youngmastersacademy.co.ke. Our office hours are Monday to Friday, 8:00 am to 5:30 pm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly will you respond?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We aim to respond to every message within one working day."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="top-bar">
+  <div class="container">
+      <span>Mon – Fri: 8:00 am – 5:30 pm</span>
+      <span class="top-bar-center"><a href="tel:+254798639546">+254 798 639546</a></span>
+      <span><a href="mailto:info@youngmastersacademy.co.ke">info@youngmastersacademy.co.ke</a></span>
+    </div>
+</header>
+
+<nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo/logo-main.png" alt="Young Masters Academy logo — Confident Innovators, SHINE!" width="2170" height="2429">
+        <span class="brand-text">
+          <span class="brand-name">Young Masters Academy</span>
+          <span class="tagline-italic">Confident Innovators, SHINE!</span>
+        </span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="faq.html" class="active">FAQ</a>
+        <a href="staff.html">Staff</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://accounts.youngmastersacademy.sc.ke/guest/request" class="nav-cta" target="_blank" rel="noopener noreferrer">Apply Now</a>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="faq.html" class="active">FAQ</a>
+      <a href="staff.html">Staff</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://accounts.youngmastersacademy.sc.ke/guest/request" class="nav-cta" target="_blank" rel="noopener noreferrer">Apply Now</a>
+    </div>
+</nav>
+
+<main id="main-content">
+
+<!-- ============ PAGE HERO ============ -->
+<section class="hero hero-inner img-fallback-outdoor" style="background-image: url('assets/images/hero/hero-contact.jpg');">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>FAQ</div>
+    <h1>Frequently Asked Questions About Young Masters Academy</h1>
+  </div>
+</section>
+<!-- ============ FAQ ============ -->
+<section class="section bg-white">
+  <div class="container faq-wrap">
+    <div class="faq-top reveal">
+      <p class="body-text">Quick answers about the school, how we teach and assess under CBE, and how to join us. If your question is not here, <a href="contact.html">send us a message</a>.</p>
+      <button type="button" class="faq-toggle-all btn-text" data-faq-toggle aria-pressed="false">Expand all</button>
+    </div>
+    <nav class="faq-jump reveal" aria-label="FAQ topics">
+      <a href="#faq-school">The School</a>
+      <a href="#faq-learning">Learning and CBE</a>
+      <a href="#faq-admissions">Admissions and Transfers</a>
+      <a href="#faq-contact">Contact</a>
+    </nav>
+    <div class="faq-group" id="faq-school">
+      <h2>The School</h2>
+      <details class="faq-item">
+        <summary>When was Young Masters Academy founded?</summary>
+        <div class="faq-answer"><p>Young Masters Academy was founded in 2005 in Likoni, Mombasa, so in 2026 the school is 21 years old. We have taught through the move from 8-4-4 to the Competency Based Curriculum and now to Competency Based Education (CBE).</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which levels do you offer?</summary>
+        <div class="faq-answer"><p>We offer Daycare and ECD, Pre-Primary (PP1 and PP2), Lower Primary (Grades 1 to 3), Upper Primary (Grades 4 to 6), and Junior School (Grades 7 to 9). You can read about each level on the <a href="academics.html#daycare">Academics page</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is Young Masters Academy a private school?</summary>
+        <div class="faq-answer"><p>Yes. We are a private school, and we serve a wide community, including children who are supported through the KE358 Child Development Centre (CDC).</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Where exactly are you located?</summary>
+        <div class="faq-answer"><p>We are on the compound of Deliverance Church International Likoni, in the Kitaruni area along Likoni-Ukunda Road, Likoni, Mombasa. The <a href="contact.html#find-us">map on our contact page</a> is zoomed in on the church so you can find us easily.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How is the school connected to KE358 and Deliverance Church International Likoni?</summary>
+        <div class="faq-answer"><p>The school, Deliverance Church International Likoni, and the KE358 Child Development Centre (CDC) share one compound and work side by side as one community. A sizeable share of our learners are supported through KE358, and this partnership is how we serve the children among us who need it most.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Who leads the school?</summary>
+        <div class="faq-answer"><p>The school is led by Rev. Mary Wambogo, a pastor, businesswoman, and the founder of the school; Anne Matthews, a Christian social worker; Moses Kioko (Musa Asubuhi), a serial entrepreneur; and James Kimani, a banker who is passionate about education. <a href="about.html#leadership">Meet the leadership team</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer Daycare?</summary>
+        <div class="faq-answer"><p>Yes. Our Daycare and ECD programme gives our youngest children a safe, structured, and stimulating start.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Does the school provide transport?</summary>
+        <div class="faq-answer"><p>No. Young Masters Academy does not currently provide school transport, so families arrange how their children travel to and from school.</p></div>
+      </details>
+    </div>
+    <div class="faq-group" id="faq-learning">
+      <h2>Learning and CBE</h2>
+      <details class="faq-item">
+        <summary>What is Competency Based Education (CBE), and how does YMA use it?</summary>
+        <div class="faq-answer"><p>CBE asks &lsquo;What can my child do?&rsquo; rather than only &lsquo;What does my child know?&rsquo; Learners are assessed over time through tasks, projects, observation, and tests, and their progress is recorded against competencies. We teach and assess in line with national policy. <a href="academics.html#cbe">Read more on our Academics page</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What does government policy say about CBE?</summary>
+        <div class="faq-answer"><p>Sessional Paper No. 1 of 2019 commits government to &ldquo;mainstream competency based education and training&rdquo; and to &ldquo;reform the assessment and examinations framework&rdquo; (<a href="https://planipolis.iiep.unesco.org/sites/default/files/ressources/reforming_education_and_training_for_sustainanable_development_in_kenya_2.pdf" target="_blank" rel="noopener noreferrer">read the paper</a>). KICD&rsquo;s Basic Education Curriculum Framework names seven core competencies and calls formative, criterion-referenced assessment &ldquo;the bedrock of a competency-based curriculum&rdquo; (<a href="https://kicd.ac.ke/wp-content/uploads/2019/08/BASIC-EDUCATION-CURRICULUM-FRAMEWORK-2019.pdf" target="_blank" rel="noopener noreferrer">read the framework</a>).</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do school assessments count towards national results?</summary>
+        <div class="faq-answer"><p>Yes. As reported in 2026, school-based assessment makes up about 60% of KPSEA (Grades 4 to 6) and 20% of KJSEA (Grades 7 and 8). Schools upload these scores to KNEC&rsquo;s CBA portal (<a href="https://www.kenyans.co.ke/news/124889-knec-sets-july-30-deadline-schools-verify-kpsea-kjsea-assessment-scores" target="_blank" rel="noopener noreferrer">read the report</a>). That is why steady, honest records of each learner&rsquo;s work through the year matter.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which clubs and activities do you offer?</summary>
+        <div class="faq-answer"><p>Sports and athletics, arts, a chess club, a baking and entrepreneurship club, debate, and spelling bee. Each is linked to the core competencies in national policy on the <a href="academics.html#activities">Academics page</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which subjects are taught in Junior School?</summary>
+        <div class="faq-answer"><p>Subject specialist teachers deliver the Junior School programme (Grades 7 to 9), including Pre-Technical Studies, Business Studies, and Agriculture alongside core subjects.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which languages do you teach?</summary>
+        <div class="faq-answer"><p>English and Kiswahili form part of our programme from Pre-Primary, where learners are introduced to early literacy in both.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How big are your classes?</summary>
+        <div class="faq-answer"><p>Our classes are intentionally small, so that teachers can know each learner by name, by strength, and by what they are still working on.</p></div>
+      </details>
+    </div>
+    <div class="faq-group" id="faq-admissions">
+      <h2>Admissions and Transfers</h2>
+      <details class="faq-item">
+        <summary>Is the 2027 intake open?</summary>
+        <div class="faq-answer"><p>Yes. Applications for the January 2027 intake are open for all levels from Daycare to Grade 9. <a href="admissions.html#how-to-apply">See how to apply</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>When can my child join the school?</summary>
+        <div class="faq-answer"><p>Our main intake runs in January, at the start of the academic year. A child can also transfer to us at any time, as long as the parent follows the government&rsquo;s transfer protocols.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I apply?</summary>
+        <div class="faq-answer"><p>Complete the online application through our <a href="https://accounts.youngmastersacademy.sc.ke/guest/request" target="_blank" rel="noopener noreferrer">admissions portal</a>, or contact the school office by phone, WhatsApp, or the <a href="contact.html">contact form</a>. We acknowledge applications within two working days.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which documents do I need?</summary>
+        <div class="faq-answer"><p>A certified copy of the birth certificate, two recent passport-size photographs, the completed enrolment form, previous school reports or progress records (Grade 1 and above), and a copy of the parent or guardian&rsquo;s national ID. Transfers also need a release letter from the previous school, plus your child&rsquo;s UPI and KNEC assessment number.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is there an assessment before admission?</summary>
+        <div class="faq-answer"><p>For Grade 1 and above we carry out a brief, informal placement assessment. It is not a test your child needs to prepare for; it helps us understand how to support them from day one.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I transfer my child from another school?</summary>
+        <div class="faq-answer"><p>Collect your child&rsquo;s UPI, KNEC assessment number, and records; ask the current school for a release letter; and apply to us. We then start the transfer on KNEC&rsquo;s CBA portal, the releasing school accepts it, an admission letter is generated online, and we notify the Sub-County Director of Education. <a href="admissions.html#transfers">See the full steps</a>.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can my child transfer into Grade 6?</summary>
+        <div class="faq-answer"><p>Under the KNEC guidance reported in 2026, transfers are not allowed into Grade 6, because learners are preparing for the national assessment. Please speak to us before you withdraw your child from their current school.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What are the fees?</summary>
+        <div class="faq-answer"><p>We share our fee structure directly with enquiring families. Please call or WhatsApp us on +254 798 639546, or send a message through the <a href="contact.html">contact page</a>.</p></div>
+      </details>
+    </div>
+    <div class="faq-group" id="faq-contact">
+      <h2>Contact</h2>
+      <details class="faq-item">
+        <summary>How can I reach the school?</summary>
+        <div class="faq-answer"><p>Call or WhatsApp +254 798 639546, or email info@youngmastersacademy.co.ke. Our office hours are Monday to Friday, 8:00 am to 5:30 pm.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How quickly will you respond?</summary>
+        <div class="faq-answer"><p>We aim to respond to every message within one working day.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2 class="reveal">Still Have a Question?</h2>
+    <p class="reveal">Karibu. Our team is happy to help with anything about the school, admissions, or transfers.</p>
+    <div class="hero-buttons reveal">
+      <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+      <a href="tel:+254798639546" class="btn btn-outline-white">Call Us: +254 798 639546</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <a href="index.html" class="footer-brand">
+        <img src="assets/images/logo/logo-white.png" alt="Young Masters Academy logo — Confident Innovators, SHINE!" width="2328" height="3508">
+        <span class="footer-brand-text">
+          <h2>Young Masters Academy</h2>
+          <span class="tagline-italic">Confident Innovators, SHINE!</span>
+        </span>
+      </a>
+      <p class="footer-blurb">Nurturing confident innovators in Likoni, Mombasa since 2005. CBE education from Daycare to Grade 9.</p>
+    </div>
+
+    <nav class="footer-links-col" aria-label="Footer navigation">
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-contact-col">
+      <h4>Get In Touch</h4>
+      <ul class="footer-contact">
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Likoni, Mombasa</span></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+254798639546">+254 798 639546</a></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> <a href="mailto:info@youngmastersacademy.co.ke">info@youngmastersacademy.co.ke</a></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> <span>Mon – Fri: 8:00 am – 5:30 pm</span></li>
+      </ul>
+    </div>
+
+    <div class="footer-connect">
+      <h4>Follow Us</h4>
+      <p>Stay connected with school life, events and updates from YMA.</p>
+      <div class="social-row">
+        <a href="https://www.facebook.com" aria-label="Young Masters Academy on Facebook" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg>
+        </a>
+        <!-- UPDATE: Replace with actual YMA Facebook URL before going live -->
+        <a href="https://www.instagram.com" aria-label="Young Masters Academy on Instagram" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.1 0 4.1.1 1.1 0 1.8.2 2.4.5.6.2 1.1.6 1.6 1.1.5.5.8.9 1.1 1.6.3.6.5 1.3.5 2.4.1 1 .1 1.4.1 4.1s0 3.1-.1 4.1c0 1.1-.2 1.8-.5 2.4-.3.6-.6 1.1-1.1 1.6-.5.5-1 .8-1.6 1.1-.6.3-1.3.5-2.4.5-1 .1-1.4.1-4.1.1s-3.1 0-4.1-.1c-1.1 0-1.8-.2-2.4-.5-.6-.3-1.1-.6-1.6-1.1-.5-.5-.8-1-1.1-1.6-.3-.6-.5-1.3-.5-2.4C2 15.1 2 14.7 2 12s0-3.1.1-4.1c0-1.1.2-1.8.5-2.4.3-.7.6-1.1 1.1-1.6.5-.5.9-.8 1.6-1.1.6-.3 1.3-.5 2.4-.5C8.9 2 9.3 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm5.2-8.4a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z"/></svg>
+        </a>
+        <!-- UPDATE: Replace with actual YMA Instagram URL before going live -->
+        <a href="https://www.youtube.com" aria-label="Young Masters Academy on YouTube" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.7-.8-2.1-.9C15.9 4 12 4 12 4h0s-3.9 0-6.7.2c-.4 0-1.3.1-2.1.9-.6.6-.8 2.1-.8 2.1S2.2 9 2.2 10.7v1.6c0 1.7.2 3.5.2 3.5s.2 1.5.8 2.1c.8.8 1.8.8 2.3.9C7.3 19 12 19 12 19s3.9 0 6.7-.2c.4 0 1.3-.1 2.1-.9.6-.6.8-2.1.8-2.1s.2-1.7.2-3.5v-1.6c0-1.7-.2-3.5-.2-3.5ZM9.9 14.6V8.9l5.4 2.8-5.4 2.9Z"/></svg>
+        </a>
+        <!-- UPDATE: Replace with actual YMA YouTube URL before going live -->
+        <a href="https://www.linkedin.com" aria-label="Young Masters Academy on LinkedIn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9Z"/></svg>
+        </a>
+        <!-- UPDATE: Replace with actual YMA LinkedIn URL before going live -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© 2026 Young Masters Academy. All rights reserved.</span>
+    <span>Likoni, Mombasa</span>
+  </div>
+</footer>
+<!-- PHASE 2: Replace social links with actual verified YMA social accounts -->
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

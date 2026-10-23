@@ -167,3 +167,17 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
+
+
+/* FAQ: expand / collapse all */
+(function () {
+  var btn = document.querySelector('[data-faq-toggle]');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var items = document.querySelectorAll('.faq-item');
+    var open = btn.getAttribute('aria-pressed') !== 'true';
+    items.forEach(function (d) { d.open = open; });
+    btn.setAttribute('aria-pressed', open ? 'true' : 'false');
+    btn.textContent = open ? 'Collapse all' : 'Expand all';
+  });
+})();
